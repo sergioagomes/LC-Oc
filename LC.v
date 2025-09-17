@@ -11,5 +11,6 @@ Definition id_term : term :=  Abs(Var 0).
 Lemma id_term_is_term : exists t : term, True.
 Proof.
   exists id_term.
-  reflexivity. (* Proves the goal by reflexivity *)
+  (* Proves the goal by reflexivity *)
+  reflexivity. 
 Qed.
